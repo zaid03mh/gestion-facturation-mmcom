@@ -1,0 +1,27 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de données locale SQLite (données locales/sensibles)
+*.db
+*.sqlite3
+gestion_mmcom.db
+
+# Documents générés (factures PDF, devis générés localement)
+documents_mmcom/
+*.pdf
+
+# Fichiers de configuration et IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
